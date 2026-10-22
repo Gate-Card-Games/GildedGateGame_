@@ -2037,3 +2037,31 @@ Asset Pipeline Refresh (id=9643bde06bce078439ee3aaeff02d28e): Total: 2.810 secon
 	Untracked: 1118.378ms
 
 [Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=facecc8edff2599409a7dc97ae8ba3eb): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 23728; Successful remaps: 1844
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\ryanw\GildedGateGame\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ryanw/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-ryanw-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ryanw channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000009C6C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000009C6C, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4716
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792641365914,"processId":55704,"allocatedMemory":13093270,"memoryLabels":[{"Default":183820},{"Permanent":15516},{"NewDelete":72513},{"Thread":4197984},{"Manager":36637},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":845929},{"Material":68},{"GfxDevice":55968},{"Animation":952},{"Audio":696},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":16704},{"Input":42840},{"JobScheduler":256},{"TextLib":31702},{"Mono":48},{"ScriptingNativeRuntime":1293024},{"BaseObject":49808},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":19269},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":1674228},{"StaticString":3808},{"Utility":2676058},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":347986},{"ScriptManager":31640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":8016},{"WebRequest":6029},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":7441},{"Secure":265},{"Image":65536},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":267608},{"EditorUtility":169079},{"VersionControl":8},{"Undo":931},{"AssetDatabase":430901},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36922},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12805},{"AssetReference":32},{"IPCStream":32}]}
