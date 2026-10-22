@@ -1,0 +1,1248 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.2f1 (770e33f6875c) revision 7802419'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Matthew Zoll" at "2026-10-22T19:57:47.0013057Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32607 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-22T19:57:47Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW2
+-projectPath
+C:/Users/Matthew Zoll/GildedGateGame
+-logFile
+Logs/AssetImportWorkerHW2.log
+-srvPort
+57873
+-parentPid
+11296
+-analyticsCloudUserId
+2474531622037
+-analyticsLocalProjectId
+4a54b9af9174b9349a818481380fb349
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+d193f94d752f0d93d54b166dba6236b84ec966d9
+-cbmMachineId
+52BKEzxcgFBJ2U7TYVwDrC1rA7k=
+-licensingIpc
+LicenseClient-Matthew Zoll
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Matthew Zoll/GildedGateGame
+C:/Users/Matthew Zoll/GildedGateGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [32188]  Target information:
+
+Player connection [32188]  * "[IP] 184.171.154.116 [Port] 0 [Flags] 2 [Guid] 3155546514 [EditorId] 3155546514 [Version] 1048832 [Id] WindowsEditor(7,The-Alchemist) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32188] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32188] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: c5c1e704a1b7a8d1b7313e5938b7349f
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.2f1 (770e33f6875c)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Matthew Zoll/GildedGateGame/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:          NVIDIA
+    VRAM:            7895 MB
+    App VRAM Budget: 7127 MB
+    Driver:          32.0.16.2101
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002209 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Matthew Zoll"
+[Licensing::IpcConnector] LicenseClient-Matthew Zoll channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Matthew Zoll-6000.6.2" at "2026-10-22T19:57:49.0173008Z"
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 1014ms
+	BeginReloadAssembly (146ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (143ms)
+		TypeCache.Refresh (228ms)
+			TypeCache.ScanAssembly (214ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (438ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 11784, path: "C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              0f2e5d1c16e74766aa5dfb693f2db51b
+  Correlation Id:          13e84a97d4f2f3a9dcaafb1f5937f0b8
+  External correlation Id: 719752769272092604
+  Machine Id:              52BKEzxcgFBJ2U7TYVwDrC1rA7k=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Matthew Zoll-6000.6.2" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Matthew Zoll-6000.6.2-notifications" at "2026-10-22T19:57:49.0279322Z"
+[Licensing::Module] Licensing Background thread has ended after 2.03s
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2474531622037-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.361 seconds
+Domain Reload Profiling: 838ms
+	BeginReloadAssembly (207ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (181ms)
+		TypeCache.Refresh (15ms)
+			TypeCache.ScanAssembly (8ms)
+		AnalyzeDomain (6ms)
+			BuildScriptInfoCaches (5ms)
+	FinalizeReload (362ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 488 unused Assets / (196.1 KB). Loaded Objects now: 1178.
+Memory consumption went from 186.6 MB to 186.4 MB.
+Total: 3.618700 ms (FindLiveObjects: 0.172600 ms CreateObjectMapping: 0.022000 ms MarkObjects: 3.169000 ms  DeleteObjects: 0.137000 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 2547ms
+	BeginReloadAssembly (436ms)
+		DisableScriptedObjects (12ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (270ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (1155ms)
+		LoadAssemblies (1345ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (633ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 486 unused Assets / (138.6 KB). Loaded Objects now: 1178.
+Memory consumption went from 186.1 MB to 185.9 MB.
+Total: 3.725000 ms (FindLiveObjects: 0.186600 ms CreateObjectMapping: 0.021900 ms MarkObjects: 3.309400 ms  DeleteObjects: 0.084600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T20:43:19.7913086Z
+  Time since last request: 239484.66758189999382 seconds.
+  importAddress: GUID: 7f25dd9dd41573242bcddf12eecf1c0e - Path: Assets/Scripts - Importer: PreviewImporter
+Importing 'GUID: 7f25dd9dd41573242bcddf12eecf1c0e - Path: Assets/Scripts - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7f25dd9dd41573242bcddf12eecf1c0e' -> (Import Result ID: '97dd3c6e1fc1eab9698066f32ef97537') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b707857747d387db06c224d9f3bbb742 DependenciesID=2c65a981f3c33d4562a0909ab22a5102 StaticDependenciesID=bc2afc39360313a845427c9834c8bd61 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (89.7 KB). Loaded Objects now: 1181.
+Memory consumption went from 187.2 MB to 187.1 MB.
+Total: 4.036700 ms (FindLiveObjects: 0.243400 ms CreateObjectMapping: 0.022800 ms MarkObjects: 3.552700 ms  DeleteObjects: 0.094400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T20:44:11.1170928Z
+  Time since last request: 51.3162938 seconds.
+  importAddress: GUID: cdfb339b604a90145b3735db93341e14 - Path: Assets/Scripts/GridLayout.cs - Importer: PreviewImporter
+Importing 'GUID: cdfb339b604a90145b3735db93341e14 - Path: Assets/Scripts/GridLayout.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cdfb339b604a90145b3735db93341e14' -> (Import Result ID: '693462a26c6610cb814a7419c0f613d3') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d81a059ab12e5314e278110074e5902 DependenciesID=bb966ec5dbe8e638788fc4c34e309926 StaticDependenciesID=64ce94a5b759a829aad7746b73fd2637 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.162 seconds
+Domain Reload Profiling: 2846ms
+	BeginReloadAssembly (587ms)
+		DisableScriptedObjects (66ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (944ms)
+		LoadAssemblies (460ms)
+		TypeCache.Refresh (13ms)
+		AnalyzeDomain (409ms)
+			BuildScriptInfoCaches (392ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1163ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (50ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (14.0 KB). Loaded Objects now: 1181.
+Memory consumption went from 187.2 MB to 187.2 MB.
+Total: 12.436600 ms (FindLiveObjects: 1.466200 ms CreateObjectMapping: 0.052900 ms MarkObjects: 10.445100 ms  DeleteObjects: 0.128800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T20:44:27.3198409Z
+  Time since last request: 16.2019331 seconds.
+  importAddress: GUID: cdfb339b604a90145b3735db93341e14 - Path: Assets/Scripts/GridLayout.cs - Importer: PreviewImporter
+Importing 'GUID: cdfb339b604a90145b3735db93341e14 - Path: Assets/Scripts/GridLayout.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cdfb339b604a90145b3735db93341e14' -> (Import Result ID: '50a34a78294850a07206e2b147a1f84e') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d81a059ab12e5314e278110074e5902 DependenciesID=541c8b79d742c76abf042ff41e529236 StaticDependenciesID=64ce94a5b759a829aad7746b73fd2637 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (136.4 KB). Loaded Objects now: 1181.
+Memory consumption went from 187.4 MB to 187.3 MB.
+Total: 15.695500 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.034700 ms MarkObjects: 15.083700 ms  DeleteObjects: 0.125100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.804 seconds
+Domain Reload Profiling: 2068ms
+	BeginReloadAssembly (411ms)
+		DisableScriptedObjects (18ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (159ms)
+	LoadAllAssembliesAndSetupDomain (641ms)
+		LoadAssemblies (610ms)
+		TypeCache.Refresh (14ms)
+		AnalyzeDomain (25ms)
+			BuildScriptInfoCaches (23ms)
+	FinalizeReload (806ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (22ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (14.2 KB). Loaded Objects now: 1181.
+Memory consumption went from 188.2 MB to 188.2 MB.
+Total: 5.498900 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.030800 ms MarkObjects: 4.937200 ms  DeleteObjects: 0.114500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (14.9 KB). Loaded Objects now: 1181.
+Memory consumption went from 188.6 MB to 188.5 MB.
+Total: 13.865800 ms (FindLiveObjects: 0.267200 ms CreateObjectMapping: 0.031100 ms MarkObjects: 12.978300 ms  DeleteObjects: 0.191100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.389 seconds
+Domain Reload Profiling: 889ms
+	BeginReloadAssembly (223ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (201ms)
+		TypeCache.Refresh (5ms)
+		AnalyzeDomain (13ms)
+			BuildScriptInfoCaches (12ms)
+	FinalizeReload (390ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (131.0 KB). Loaded Objects now: 1181.
+Memory consumption went from 190.8 MB to 190.7 MB.
+Total: 3.547500 ms (FindLiveObjects: 0.188800 ms CreateObjectMapping: 0.020500 ms MarkObjects: 3.099400 ms  DeleteObjects: 0.120800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 839ms
+	BeginReloadAssembly (203ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (183ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (384ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (76.3 KB). Loaded Objects now: 1181.
+Memory consumption went from 192.6 MB to 192.5 MB.
+Total: 3.775200 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.023300 ms MarkObjects: 3.330700 ms  DeleteObjects: 0.114800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.384 seconds
+Domain Reload Profiling: 845ms
+	BeginReloadAssembly (207ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (181ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (386ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (216.2 KB). Loaded Objects now: 1181.
+Memory consumption went from 194.2 MB to 194.0 MB.
+Total: 3.777700 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.022700 ms MarkObjects: 3.249900 ms  DeleteObjects: 0.173900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.401 seconds
+Domain Reload Profiling: 869ms
+	BeginReloadAssembly (210ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (181ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (402ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (15.0 KB). Loaded Objects now: 1181.
+Memory consumption went from 196.4 MB to 196.3 MB.
+Total: 3.856800 ms (FindLiveObjects: 0.194300 ms CreateObjectMapping: 0.021600 ms MarkObjects: 3.376000 ms  DeleteObjects: 0.087300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.392 seconds
+Domain Reload Profiling: 870ms
+	BeginReloadAssembly (213ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (198ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (394ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (106.3 KB). Loaded Objects now: 1181.
+Memory consumption went from 198.5 MB to 198.4 MB.
+Total: 3.805900 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.059200 ms MarkObjects: 3.356000 ms  DeleteObjects: 0.085600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (14.7 KB). Loaded Objects now: 1181.
+Memory consumption went from 198.8 MB to 198.8 MB.
+Total: 13.626000 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.032800 ms MarkObjects: 12.749500 ms  DeleteObjects: 0.133600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.429 seconds
+Domain Reload Profiling: 1519ms
+	BeginReloadAssembly (482ms)
+		DisableScriptedObjects (24ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (156ms)
+	LoadAllAssembliesAndSetupDomain (392ms)
+		LoadAssemblies (453ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (24ms)
+			BuildScriptInfoCaches (22ms)
+	FinalizeReload (430ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (160.1 KB). Loaded Objects now: 1181.
+Memory consumption went from 200.6 MB to 200.5 MB.
+Total: 3.446700 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.018700 ms MarkObjects: 3.049300 ms  DeleteObjects: 0.079300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T22:02:29.5511985Z
+  Time since last request: 4682.22297979999985 seconds.
+  importAddress: GUID: cdfb339b604a90145b3735db93341e14 - Path: Assets/Scripts/GridLayout.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cdfb339b604a90145b3735db93341e14 - Path: Assets/Scripts/GridLayout.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cdfb339b604a90145b3735db93341e14' -> (Import Result ID: '8b7d0cd8b150b38de9f4698359207ea7') in 0.079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37819eef19b12311a1123fd87b0a0c1a DependenciesID=a9a10e0d4f605b4062b2718d086a68a3 StaticDependenciesID=69e668b3f9cbe4e6ee71d91c0147b0e4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 1181.
+Memory consumption went from 201.9 MB to 201.9 MB.
+Total: 3.857600 ms (FindLiveObjects: 0.199900 ms CreateObjectMapping: 0.011500 ms MarkObjects: 3.509700 ms  DeleteObjects: 0.016800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T22:02:33.0200699Z
+  Time since last request: 3.389453 seconds.
+  importAddress: GUID: cef8f07f8d96f1b46aa4d3b3368a2044 - Path: Assets/Materials - Importer: PreviewImporter
+Importing 'GUID: cef8f07f8d96f1b46aa4d3b3368a2044 - Path: Assets/Materials - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cef8f07f8d96f1b46aa4d3b3368a2044' -> (Import Result ID: 'ac1cf75871778df00ee54b3e84819202') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5a762de022f61aad106738af95b2b43 DependenciesID=0925288011e8c400a2e0407bc4effb1b StaticDependenciesID=b9fbc72e4099d172a913d05782d01dc5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T22:02:33.9808059Z
+  Time since last request: 0.9595572 seconds.
+  importAddress: GUID: cef8f07f8d96f1b46aa4d3b3368a2044 - Path: Assets/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cef8f07f8d96f1b46aa4d3b3368a2044 - Path: Assets/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cef8f07f8d96f1b46aa4d3b3368a2044' -> (Import Result ID: 'ab2e3fc8ce7ee4c6c32b4c74e12d5dc8') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4928d69ccf00ab366b138f77c8b8ad68 DependenciesID=219e054d2dadf61d85251abdd8b62653 StaticDependenciesID=69ba2267f32824ab758f89e3b943bb87 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T22:02:38.3059962Z
+  Time since last request: 4.3221447 seconds.
+  importAddress: GUID: e85dfc716d6b200448653298b68f829d - Path: Assets/Materials/red.mat - Importer: PreviewImporter
+Importing 'GUID: e85dfc716d6b200448653298b68f829d - Path: Assets/Materials/red.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e85dfc716d6b200448653298b68f829d' -> (Import Result ID: '2fa0148340c84e561de0ea3c251da7b1') in 0.233 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e74a1b356d587983463ec52f06ecb847 DependenciesID=45fa2c1b862f39152d7bc5ae2d4582ba StaticDependenciesID=e83c7299d74453f7c23c4ec26976fac6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T22:02:39.2881057Z
+  Time since last request: 0.7474682 seconds.
+  importAddress: GUID: e85dfc716d6b200448653298b68f829d - Path: Assets/Materials/red.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e85dfc716d6b200448653298b68f829d - Path: Assets/Materials/red.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e85dfc716d6b200448653298b68f829d' -> (Import Result ID: '744cb42ca5fcfae68eef3726fca49126') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3652d989ec12fd1e45ec9d801264e994 DependenciesID=9a85f7886f3224aba484ec512f84cbb1 StaticDependenciesID=d9db2992aa2c15d8982962bf0f0ce2bf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.393 seconds
+Domain Reload Profiling: 848ms
+	BeginReloadAssembly (198ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (188ms)
+		TypeCache.Refresh (5ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (394ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (166.0 KB). Loaded Objects now: 1223.
+Memory consumption went from 204.8 MB to 204.6 MB.
+Total: 3.372600 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.022200 ms MarkObjects: 2.967400 ms  DeleteObjects: 0.081800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (142.3 KB). Loaded Objects now: 1223.
+Memory consumption went from 205.2 MB to 205.0 MB.
+Total: 8.910300 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.029800 ms MarkObjects: 8.217700 ms  DeleteObjects: 0.166500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.642 seconds
+Domain Reload Profiling: 1572ms
+	BeginReloadAssembly (360ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (382ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (27ms)
+			BuildScriptInfoCaches (25ms)
+	FinalizeReload (644ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (26ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (38.6 KB). Loaded Objects now: 1223.
+Memory consumption went from 205.7 MB to 205.7 MB.
+Total: 9.117600 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.025300 ms MarkObjects: 8.565500 ms  DeleteObjects: 0.116500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.378 seconds
+Domain Reload Profiling: 840ms
+	BeginReloadAssembly (206ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (183ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (379ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (166.0 KB). Loaded Objects now: 1223.
+Memory consumption went from 206.9 MB to 206.7 MB.
+Total: 3.465800 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.021200 ms MarkObjects: 3.055600 ms  DeleteObjects: 0.080600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (15.0 KB). Loaded Objects now: 1223.
+Memory consumption went from 207.2 MB to 207.2 MB.
+Total: 9.218800 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.030900 ms MarkObjects: 8.612700 ms  DeleteObjects: 0.121600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.824 seconds
+Domain Reload Profiling: 1969ms
+	BeginReloadAssembly (508ms)
+		DisableScriptedObjects (21ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (501ms)
+		TypeCache.Refresh (10ms)
+		AnalyzeDomain (27ms)
+			BuildScriptInfoCaches (25ms)
+	FinalizeReload (826ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (280ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (21ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (63.8 KB). Loaded Objects now: 1223.
+Memory consumption went from 208.9 MB to 208.8 MB.
+Total: 7.772300 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.026600 ms MarkObjects: 7.056500 ms  DeleteObjects: 0.146800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (15.0 KB). Loaded Objects now: 1223.
+Memory consumption went from 209.3 MB to 209.3 MB.
+Total: 9.795600 ms (FindLiveObjects: 0.830600 ms CreateObjectMapping: 0.045100 ms MarkObjects: 8.631400 ms  DeleteObjects: 0.119800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.720 seconds
+Domain Reload Profiling: 1863ms
+	BeginReloadAssembly (422ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (559ms)
+		LoadAssemblies (473ms)
+		TypeCache.Refresh (12ms)
+		AnalyzeDomain (33ms)
+			BuildScriptInfoCaches (30ms)
+	FinalizeReload (722ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (25ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (15.0 KB). Loaded Objects now: 1223.
+Memory consumption went from 211.1 MB to 211.1 MB.
+Total: 6.294400 ms (FindLiveObjects: 0.233300 ms CreateObjectMapping: 0.024400 ms MarkObjects: 5.751800 ms  DeleteObjects: 0.119200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 896ms
+	BeginReloadAssembly (211ms)
+		DisableScriptedObjects (12ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (189ms)
+		TypeCache.Refresh (5ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (405ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (173.8 KB). Loaded Objects now: 1223.
+Memory consumption went from 212.7 MB to 212.6 MB.
+Total: 3.634000 ms (FindLiveObjects: 0.194700 ms CreateObjectMapping: 0.020900 ms MarkObjects: 3.210200 ms  DeleteObjects: 0.088500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (69.6 KB). Loaded Objects now: 1223.
+Memory consumption went from 213.1 MB to 213.0 MB.
+Total: 9.757800 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.081400 ms MarkObjects: 8.863400 ms  DeleteObjects: 0.133900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.732 seconds
+Domain Reload Profiling: 1707ms
+	BeginReloadAssembly (435ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (383ms)
+		TypeCache.Refresh (16ms)
+		AnalyzeDomain (22ms)
+			BuildScriptInfoCaches (20ms)
+	FinalizeReload (733ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (24ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (14.3 KB). Loaded Objects now: 1223.
+Memory consumption went from 214.6 MB to 214.6 MB.
+Total: 6.866600 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.031900 ms MarkObjects: 6.319800 ms  DeleteObjects: 0.104300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 885ms
+	BeginReloadAssembly (214ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (191ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (405ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (145.6 KB). Loaded Objects now: 1223.
+Memory consumption went from 216.3 MB to 216.2 MB.
+Total: 3.717300 ms (FindLiveObjects: 0.194000 ms CreateObjectMapping: 0.023700 ms MarkObjects: 3.290700 ms  DeleteObjects: 0.090200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (85.0 KB). Loaded Objects now: 1223.
+Memory consumption went from 216.7 MB to 216.6 MB.
+Total: 6.773600 ms (FindLiveObjects: 0.273700 ms CreateObjectMapping: 0.034100 ms MarkObjects: 6.178300 ms  DeleteObjects: 0.119600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 1314ms
+	BeginReloadAssembly (397ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (376ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (25ms)
+			BuildScriptInfoCaches (23ms)
+	FinalizeReload (405ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (166.9 KB). Loaded Objects now: 1223.
+Memory consumption went from 218.6 MB to 218.5 MB.
+Total: 3.405600 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.023300 ms MarkObjects: 2.968600 ms  DeleteObjects: 0.084900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.476 seconds
+Domain Reload Profiling: 1058ms
+	BeginReloadAssembly (266ms)
+		DisableScriptedObjects (12ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (224ms)
+		TypeCache.Refresh (5ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (477ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (101.8 KB). Loaded Objects now: 1223.
+Memory consumption went from 220.1 MB to 220.0 MB.
+Total: 5.111000 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.036200 ms MarkObjects: 4.570000 ms  DeleteObjects: 0.139800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (133.8 KB). Loaded Objects now: 1223.
+Memory consumption went from 220.5 MB to 220.4 MB.
+Total: 7.081200 ms (FindLiveObjects: 0.563500 ms CreateObjectMapping: 0.039400 ms MarkObjects: 5.979600 ms  DeleteObjects: 0.274600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.721 seconds
+Domain Reload Profiling: 1696ms
+	BeginReloadAssembly (415ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (387ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (22ms)
+			BuildScriptInfoCaches (20ms)
+	FinalizeReload (723ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (33ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (14.5 KB). Loaded Objects now: 1223.
+Memory consumption went from 221.9 MB to 221.9 MB.
+Total: 7.663600 ms (FindLiveObjects: 0.262400 ms CreateObjectMapping: 0.030900 ms MarkObjects: 7.082900 ms  DeleteObjects: 0.118900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'GridLayout' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.400 seconds
+Domain Reload Profiling: 890ms
+	BeginReloadAssembly (225ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (194ms)
+		TypeCache.Refresh (5ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (401ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 487 unused Assets / (154.3 KB). Loaded Objects now: 1223.
+Memory consumption went from 223.9 MB to 223.7 MB.
+Total: 3.882100 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.025400 ms MarkObjects: 3.446200 ms  DeleteObjects: 0.087000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T22:47:40.9678932Z
+  Time since last request: 2701.66604959999995 seconds.
+  importAddress: GUID: 4615a8fb197ec6f4c819917569dfefeb - Path: Assets/Scenes - Importer: PreviewImporter
+Importing 'GUID: 4615a8fb197ec6f4c819917569dfefeb - Path: Assets/Scenes - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4615a8fb197ec6f4c819917569dfefeb' -> (Import Result ID: 'f6818dcbdb176f50c8aeb8dabc75687a') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c2c4b01c353aa18781d7627327addd3 DependenciesID=7a1397d34990b0b1cbfa1078c37bbf35 StaticDependenciesID=88790aa25c10d2cd615e060844680c6a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1223.
+Memory consumption went from 223.9 MB to 223.9 MB.
+Total: 3.828100 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.010600 ms MarkObjects: 3.474800 ms  DeleteObjects: 0.007900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

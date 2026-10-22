@@ -36,3 +36,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+Library/UndoData.bin
+Library/UndoStack.bin
+Logs/AssetImportWorkerHW1.log
+Logs/AssetImportWorkerHW1-UDS.log
+Logs/shadercompiler-AssetImportWorkerHW1-0.log
