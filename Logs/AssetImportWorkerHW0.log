@@ -302,3 +302,55 @@ Memory consumption went from 187.4 MB to 187.4 MB.
 Total: 6.304700 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.029000 ms MarkObjects: 5.743100 ms  DeleteObjects: 0.170300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-9NAS-VKFB-JWD7-9QJW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 20066818252804-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 744ms
+	BeginReloadAssembly (185ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (157ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (11ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (333ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 486 unused Assets / (44.2 KB). Loaded Objects now: 1180.
+Memory consumption went from 187.5 MB to 187.5 MB.
+Total: 3.986100 ms (FindLiveObjects: 0.194800 ms CreateObjectMapping: 0.011500 ms MarkObjects: 3.599800 ms  DeleteObjects: 0.107100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

@@ -500,3 +500,139 @@ Asset Pipeline Refresh (id=67e386fce00149e44a649b363882b304): Total: 1.887 secon
 	Untracked: 752.421ms
 
 [Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-9NAS-VKFB-JWD7-9QJW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 20066818252804-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ryanw/GildedGateGame
+ExitCode: 0 Duration: 1s671ms
+[200/211    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[207/211    1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[208/211    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 148 defines and 289 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[209/211    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[210/211    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (1.64 seconds), 5 items updated, 211 evaluated
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 193462812
+Total cache size after purge 193462812, took 00:00:00.1517959
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.951 seconds
+Domain Reload Profiling: 1542ms
+	BeginReloadAssembly (436ms)
+		DisableScriptedObjects (108ms)
+		CreateAndSetChildDomain (193ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (77ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (10ms)
+			BuildScriptInfoCaches (8ms)
+	FinalizeReload (952ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (472ms)
+
+Asset Pipeline Refresh (id=8cfeac72d1a82994cb30f873d4f99a42): Total: 3.529 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1006 ms
+		Asset DB Callback time: managed=27 ms, native=6 ms
+		Scripting: domain reloads=1, domain reload time=627 ms, compile time=1862 ms, other=0 ms
+		Project Asset Count: scripts=172, non-scripts=62
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.184ms
+	ApplyChangesToAssetFolders: 0.244ms
+	Scan: 11.996ms
+	Collect global state as custom dependencies: 1.528ms
+	OnSourceAssetsModified: 1.007ms
+	ProcessAssetsWithTransientArtifactChanges: 0.648ms
+	CategorizeAssets: 1.222ms
+	CompileScripts: 1861.712ms
+	ImportOutOfDateAssets: 952.688ms (952.292ms without children)
+		UnloadImportedAssets: 0.076ms
+		ImportSchedulerStart: 0.288ms
+	PostProcessAllAssets: 27.433ms
+		MonoPostProcessAllAssets: 26.898ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.228ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.790ms
+			AssetChangedListener.OnPostprocessAllAssets 3.605ms
+			AssetPostprocessor.OnPostprocessAllAssets 2.946ms
+			SyncVS.PostprocessSyncProject 2.155ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.912ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.680ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.617ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.400ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.393ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.213ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.190ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.177ms
+			AssetEvents.OnPostprocessAllAssets 0.137ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.130ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.109ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.103ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.097ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.083ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.079ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.066ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.054ms
+	PostAssetChangesProfiler: 5.282ms
+	Untracked: 650.144ms
+
+[Licensing::Client] Successfully resolved entitlement details
+MonoPathRemapper: Attempts to remap: 16184; Successful remaps: 1170
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\ryanw\GildedGateGame\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ryanw/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-ryanw-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ryanw channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000009478, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008194, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000009478, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008194, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 5148
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792692235057,"processId":40196,"allocatedMemory":12550448,"memoryLabels":[{"Default":179257},{"Permanent":15516},{"NewDelete":73113},{"Thread":4205600},{"Manager":37088},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":847913},{"Material":68},{"GfxDevice":62040},{"Animation":952},{"Audio":984},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":133832},{"Input":42840},{"JobScheduler":256},{"TextLib":31702},{"Mono":48},{"ScriptingNativeRuntime":1259880},{"BaseObject":49232},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":10362},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":1240806},{"StaticString":3808},{"Utility":2676135},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":236947},{"ScriptManager":25312},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7872},{"WebRequest":7082},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":3809},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":267608},{"EditorUtility":158775},{"VersionControl":8},{"Undo":931},{"AssetDatabase":430405},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36922},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12805},{"AssetReference":32},{"IPCStream":32}]}
