@@ -1,25 +1,25 @@
-VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 27624)
-VBCSCompiler prewarm took 8.69 ms
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 53620)
+VBCSCompiler prewarm took 20.21 ms
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ryanw" at "2026-10-22T17:31:38.8046065Z"
 Built from '6000.6/staging' branch; Version is '6000.6.2f1 (770e33f6875c) revision 7802419'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ryanw" at "2026-10-22T15:03:00.4285091Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 31864 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-22T15:03:00Z
+Date: 2026-10-22T17:31:38Z
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22240, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              4236e5a4f4914a46b0ca54d2157f15c1
+  Session Id:              0a959156e3344534993f16b6b3a7d8c3
   Correlation Id:          8fd8932f71b62636fa9bc1444e3ff363
-  External correlation Id: 3849653643290826867
+  External correlation Id: 4623358553851416515
   Machine Id:              aBxw4qG5VSk8cuwsrJWeAC2UMGU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ryanw" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ryanw-notifications" at "2026-10-22T15:03:00.4686231Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ryanw" (connect: 0.00s, validation: 0.00s, handshake: 0.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ryanw-notifications" at "2026-10-22T17:31:38.9305155Z"
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated the access token BJ5E2tpDcI...
+[Licensing::Module] Successfully updated the access token d1QOuqntna...
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-9NAS-VKFB-JWD7-9QJW-XXXX
@@ -43,7 +43,7 @@ Date: 2026-10-22T15:03:00Z
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-[Licensing::Module] Licensing Background thread has ended after 0.05s
+[Licensing::Module] Licensing Background thread has ended after 0.14s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Unity.exe
@@ -59,7 +59,7 @@ LicenseClient-ryanw
 -hubSessionId
 e5c9083e-4240-4b6e-bd5a-1506f40fb5c1
 -accessToken
-BJ5E2tpDcIg4FBiiYAEGkHzp81Tu6QEV_sch7-0zW7g012f
+d1QOuqntna_k1oYQMT_IWuypOMaWmhhKSmp2QScyfn4012f
 Successfully changed project path to: C:\Users\ryanw\GildedGateGame
 C:/Users/ryanw/GildedGateGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -99,16 +99,16 @@ C:/Users/ryanw/GildedGateGame
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [35028]  Target information:
+Player connection [14472]  Target information:
 
-Player connection [35028]  * "[IP] 184.171.150.109 [Port] 55504 [Flags] 2 [Guid] 3244376618 [EditorId] 3244376618 [Version] 1048832 [Id] WindowsEditor(7,RWCharizard) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14472]  * "[IP] 184.171.150.109 [Port] 55504 [Flags] 2 [Guid] 2710233330 [EditorId] 2710233330 [Version] 1048832 [Id] WindowsEditor(7,RWCharizard) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [35028] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [35028] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14472] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14472] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-41720" after 0.3 seconds.
+[Package Manager] Connected to IPC stream "Upm-40196" after 0.2 seconds.
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-9NAS-VKFB-JWD7-9QJW-XXXX
@@ -162,35 +162,35 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001870 seconds.
+Registered in 0.155515 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.565 seconds
-Domain Reload Profiling: 986ms
-	BeginReloadAssembly (108ms)
-		CreateAndSetChildDomain (18ms)
+- Finished resetting the current domain, in  1.083 seconds
+Domain Reload Profiling: 2733ms
+	BeginReloadAssembly (204ms)
+		CreateAndSetChildDomain (3ms)
 	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (240ms)
-		LoadAssemblies (87ms)
-		TypeCache.Refresh (164ms)
-			TypeCache.ScanAssembly (152ms)
+	RebuildNativeTypeToScriptingClass (144ms)
+	initialDomainReloadingComplete (292ms)
+	LoadAllAssembliesAndSetupDomain (1006ms)
+		LoadAssemblies (197ms)
+		TypeCache.Refresh (919ms)
+			TypeCache.ScanAssembly (756ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (567ms)
+	FinalizeReload (1084ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (76ms)
-			ProcessInitializeOnLoadMethodAttributes (235ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (373ms)
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-9NAS-VKFB-JWD7-9QJW-XXXX
@@ -254,90 +254,91 @@ Application.AssetDatabase Initial Refresh Start
 [Package Manager] Done registering packages in 0.02 seconds
 Starting: C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/Users/ryanw/GildedGateGame
-ExitCode: 0 Duration: 0s189ms
+ExitCode: 0 Duration: 0s381ms
 [201/211    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.15 seconds), 1 items updated, 211 evaluated
-AssetDatabase: script compilation time: 0.533343s
+*** Tundra build success (0.35 seconds), 1 items updated, 211 evaluated
+AssetDatabase: script compilation time: 1.237026s
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.431 seconds
-Domain Reload Profiling: 1008ms
-	BeginReloadAssembly (329ms)
-		DisableScriptedObjects (25ms)
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 1271ms
+	BeginReloadAssembly (333ms)
+		DisableScriptedObjects (48ms)
 		CreateAndSetChildDomain (160ms)
-	RebuildCommonClasses (9ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (184ms)
-		LoadAssemblies (178ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (481ms)
 		TypeCache.Refresh (11ms)
 			TypeCache.ScanAssembly (7ms)
-		AnalyzeDomain (6ms)
+		AnalyzeDomain (5ms)
 			BuildScriptInfoCaches (4ms)
-	FinalizeReload (432ms)
+	FinalizeReload (384ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (93ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (9ms)
-		AwakeInstancesAfterBackupRestoration (36ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
 Starting new worker id: 0 with log in C:/Users/ryanw/GildedGateGame/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=3f4182fdaadd0d046996e6a29564c303): Total: 1.777 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=909a1cd103d0b2f4da548c61e8a556ce): Total: 3.124 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=574 ms
-		Asset DB Callback time: managed=21 ms, native=19 ms
-		Scripting: domain reloads=1, domain reload time=611 ms, compile time=540 ms, other=9 ms
+		Asset DB Process Time: managed=0 ms, native=896 ms
+		Asset DB Callback time: managed=16 ms, native=35 ms
+		Scripting: domain reloads=1, domain reload time=923 ms, compile time=1240 ms, other=12 ms
 		Project Asset Count: scripts=172, non-scripts=62
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 21.951ms
-	ApplyChangesToAssetFolders: 0.805ms
-	Scan: 31.936ms
-	Collect global state as custom dependencies: 9.730ms
-	CategorizeScriptCompilationAssets: 4.136ms
-	ProcessAssetsWithTransientArtifactChanges: 4.411ms
-	CategorizeAssets: 1.812ms
-	CompileScripts: 540.125ms
-	ImportOutOfDateAssets: 448.930ms (432.503ms without children)
-		UnloadImportedAssets: 0.120ms
-		ImportSchedulerStart: 16.262ms
-	PostProcessAllAssets: 21.834ms
-		MonoPostProcessAllAssets: 21.770ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.533ms
-			SyncVS.PostprocessSyncProject 3.188ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.746ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.658ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.209ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.186ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.136ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.070ms
-	UnloadStreamsBegin: 1.318ms
-	Untracked: 664.985ms
+	InvokePackagesCallback: 37.321ms
+	ApplyChangesToAssetFolders: 0.499ms
+	Scan: 29.159ms
+	Collect global state as custom dependencies: 8.652ms
+	CategorizeScriptCompilationAssets: 85.341ms
+	ProcessAssetsWithTransientArtifactChanges: 5.348ms
+	CategorizeAssets: 1.654ms
+	CompileScripts: 1239.589ms
+	ImportOutOfDateAssets: 397.241ms (384.197ms without children)
+		UnloadImportedAssets: 0.103ms
+		ImportSchedulerStart: 12.903ms
+	PostProcessAllAssets: 16.601ms
+		MonoPostProcessAllAssets: 16.539ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.578ms
+			SyncVS.PostprocessSyncProject 3.055ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.680ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.552ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.184ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.167ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.115ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.062ms
+	UnloadStreamsBegin: 1.455ms
+	Untracked: 1276.211ms
 
 Application.AssetDatabase Initial Refresh End
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Scanning for USB devices : 2.713ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Scanning for USB devices : 2.803ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-GildedGateGame
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/TowerDefenseGrid.unity'
-	Deserialize:            0.635 ms
-	Integration:            9.204 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.028 ms
-	Total Operation Time:   9.869 ms
-Unloading 500 unused Assets / (0.6 MB). Loaded Objects now: 1231.
-Memory consumption went from 242.8 MB to 242.2 MB.
-Total: 7.246500 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.012200 ms MarkObjects: 6.617600 ms  DeleteObjects: 0.386200 ms)
+	Deserialize:            8.002 ms
+	Integration:            10.481 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.107 ms
+	Total Operation Time:   18.593 ms
+Unloading 500 unused Assets / (0.5 MB). Loaded Objects now: 1231.
+Memory consumption went from 240.8 MB to 240.2 MB.
+Total: 7.486900 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.014700 ms MarkObjects: 5.224800 ms  DeleteObjects: 1.952700 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
 [LAYOUT] About to save layout C:\Users\ryanw\GildedGateGame\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/ryanw/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 [MODES] ModeService[default].InitializeCurrentMode
@@ -345,54 +346,157 @@ Total: 7.246500 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.012200 m
 This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
 <RI> Initializing input.
 <RI> Input initialized.
-[Project] Loading completed in 8.101 seconds
-	Project init time: 				6.478 seconds
+[Project] Loading completed in 16.007 seconds
+	Project init time: 				14.193 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		0.253 seconds
-		Asset Database init time: 		0.437 seconds
-		Global illumination init time: 	0.002 seconds
-		Assemblies load time: 			1.030 seconds
+		Package Manager init time: 		0.173 seconds
+		Asset Database init time: 		1.245 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			4.755 seconds
 		Unity extensions init time: 	0.002 seconds
-		Asset Database refresh time: 	1.778 seconds
-	Scene opening time: 			1.129 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792681388511,"processId":41720,"projectLoad":8.1014991,"projectInit":6.4783861,"templateInit":0.0,"packageManagerInit":0.252615,"assetDatabaseInit":0.4372912,"globalIlluminationInit":0.0021362,"assembliesLoad":1.0297847,"unityExtensionsInit":0.0021437,"assetDatabaseRefresh":1.7776129,"sceneOpening":1.128889}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792681388511,"processId":41720,"editorVersion":"6000.6.2f1 (770e33f6875c)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
-Worker ready: AssetImportWorkerHW0 0
+		Asset Database refresh time: 	3.124 seconds
+	Scene opening time: 			1.224 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792690314765,"processId":40196,"projectLoad":16.006989800000003,"projectInit":14.192755,"templateInit":0.0,"packageManagerInit":0.1727416,"assetDatabaseInit":1.2449598,"globalIlluminationInit":0.0033011,"assembliesLoad":4.7553425,"unityExtensionsInit":0.0022157,"assetDatabaseRefresh":3.1241913,"sceneOpening":1.224067}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792690314765,"processId":40196,"editorVersion":"6000.6.2f1 (770e33f6875c)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=bbf99b4bbfcfb114c815cf7e956d2e2f): Total: 0.033 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/ryanw/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.015s, timestamps: [16.946 - 16.960]
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "BJ5E2tpD"... (expires: 2026-10-22T16:40:57Z)
-Created GICache directory at C:/Users/ryanw/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.018s, timestamps: [8.975 - 8.993]
+[Licensing::Module] Successfully updated access token: "d1QOuqnt"... (expires: 2026-10-22T18:41:01Z)
 [Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=60830f3172f87664283774de964f02a8): Total: 0.029 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-MonoPathRemapper: Attempts to remap: 5333; Successful remaps: 0
-Serialized file version minimum: 23, current 23
-[LAYOUT] About to save layout C:\Users\ryanw\GildedGateGame\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/ryanw/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
-[Physics::Module] Cleanup current backend.
-[Physics::Module] Id: 0xf2b8ea05
-Input System module state changed to: ShutdownInProgress.
-Input Polling Thread exited.
-Input System module state changed to: Shutdown.
-[Licensing::IpcConnector] LicenseClient-ryanw-notifications channel disconnected successfully.
-[Licensing::IpcConnector] LicenseClient-ryanw channel disconnected successfully.
-Lingering sessions upon destruction of worker manager
-Unity Data Store service was successfully shut down
-UDS shutting down local client system
-Shut down UDS service system complete
-AcceleratorClientConnectionCallback - disconnected - :0
-Cleanup mono
-CodeReloadManager destroyed
-abort_threads: Failed aborting id: 000000000000D88C, mono_thread_manage will ignore it
+TrimDiskCacheJob: Current cache size 0mb
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-9NAS-VKFB-JWD7-9QJW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 20066818252804-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Asset Pipeline Refresh (id=e1c59108cef89f8488519ba4ed7e01ed): Total: 0.072 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Starting new worker id: 1 with log in C:/Users/ryanw/GildedGateGame/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 1286136a2ce219646a8b749e84861e4f - Path: Assets/Scripts/Hand.cs - Importer: PreviewImporter -> (ImportResultId: 'ba58c286fa82631cde530359fa1ee011') in 0.0135076 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ryanw/GildedGateGame
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/ryanw/GildedGateGame
+ExitCode: 4 Duration: 0s131ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[201/211    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.10 seconds), 1 items updated, 200 evaluated
+[Worker0] Imported GUID: 1286136a2ce219646a8b749e84861e4f - Path: Assets/Scripts/Hand.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '11dd2f1614b3edd9b4f841871d979306') in 0.0597857 seconds
+Worker ready: AssetImportWorkerHW1 1
+ExitCode: 0 Duration: 1s566ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ryanw/GildedGateGame
+ExitCode: 0 Duration: 0s971ms
+Finished compiling graph: 214 nodes, 1288 flattened edges (1242 ToBuild, 10 ToUse), maximum node priority 58
+[183/211    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[200/211    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[207/211    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[208/211    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 148 defines and 289 references
 
-abort_threads: Failed aborting id: 00000000000090C0, mono_thread_manage will ignore it
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
 
-abort_threads: Failed aborting id: 000000000000D88C, mono_thread_manage will ignore it
+1 processor(s) skipped this assembly
+[209/211    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[210/211    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (0.93 seconds), 6 items updated, 211 evaluated
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-9NAS-VKFB-JWD7-9QJW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 20066818252804-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+Total cache size 193462812
+Total cache size after purge 193462812, took 00:00:00.2098953
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.023 seconds
+Domain Reload Profiling: 1716ms
+	BeginReloadAssembly (516ms)
+		DisableScriptedObjects (135ms)
+		CreateAndSetChildDomain (213ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (86ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (10ms)
+			BuildScriptInfoCaches (9ms)
+	FinalizeReload (1023ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (523ms)
 
-abort_threads: Failed aborting id: 00000000000090C0, mono_thread_manage will ignore it
+Asset Pipeline Refresh (id=67e386fce00149e44a649b363882b304): Total: 1.887 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1073 ms
+		Asset DB Callback time: managed=27 ms, native=30 ms
+		Scripting: domain reloads=1, domain reload time=735 ms, compile time=20 ms, other=0 ms
+		Project Asset Count: scripts=172, non-scripts=62
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.309ms
+	ApplyChangesToAssetFolders: 0.251ms
+	Scan: 5.905ms
+	Collect global state as custom dependencies: 1.096ms
+	ProcessAssetsWithTransientArtifactChanges: 0.973ms
+	CategorizeAssets: 1.298ms
+	CompileScripts: 19.560ms
+	ImportOutOfDateAssets: 1027.612ms (1024.445ms without children)
+		UnloadImportedAssets: 2.779ms
+		ImportSchedulerStart: 0.339ms
+	PostProcessAllAssets: 28.319ms
+		MonoPostProcessAllAssets: 27.939ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.085ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.923ms
+			AssetChangedListener.OnPostprocessAllAssets 3.879ms
+			AssetPostprocessor.OnPostprocessAllAssets 2.823ms
+			SyncVS.PostprocessSyncProject 2.206ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.967ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.824ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.667ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.432ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.399ms
+			AssetEvents.OnPostprocessAllAssets 0.316ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.251ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.182ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.146ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.130ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.117ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.112ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.109ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.084ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.084ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.075ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.052ms
+	PostAssetChangesProfiler: 30.082ms
+	UnloadStreamsBegin: 1.581ms
+	Untracked: 752.421ms
 
-debugger-agent: Unable to listen on 5164
-Checking for leaked weakptr:
-  Found no leaked weakptrs.
-[Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792681395524,"processId":41720,"allocatedMemory":11294383,"memoryLabels":[{"Default":169241},{"Permanent":15516},{"NewDelete":71137},{"Thread":4205600},{"Manager":36864},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":847913},{"Material":68},{"GfxDevice":62040},{"Animation":952},{"Audio":984},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":131992},{"Input":42840},{"JobScheduler":256},{"TextLib":31702},{"Mono":48},{"ScriptingNativeRuntime":1210712},{"BaseObject":49232},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":7393},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":301952},{"StaticString":3808},{"Utility":2676076},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":14869},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":13035},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":841},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":267662},{"EditorUtility":139799},{"VersionControl":8},{"Undo":931},{"AssetDatabase":430405},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36922},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12805},{"AssetReference":32},{"IPCStream":32}]}
+[Licensing::Client] Successfully resolved entitlement details
