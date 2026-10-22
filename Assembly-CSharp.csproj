@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ICardBase.cs" />
+    <Compile Include="Assets\Scripts\Deck.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
