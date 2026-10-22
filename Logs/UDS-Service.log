@@ -1,0 +1,13 @@
+
+Server arguments:
+  --memory-size 1073741824
+  --shared-postfix 5aa8d43d2eb903a1434c4ca2d3b68d60
+  --working-directory Library/DataStore
+  --silent-console
+  --shutdown-grace 0
+  --client-process-check 0
+  --uds-log-file C:/Users/ryanw/GildedGateGame/Logs/UDS-Service.log
+  --debug-log 2
+  -name
+  Unity.DataStore
+
