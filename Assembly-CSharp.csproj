@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GridPlacer.cs" />
     <Compile Include="Assets\Scripts\ICardBase.cs" />
+    <Compile Include="Assets\Scripts\DislpayHand.cs" />
     <Compile Include="Assets\Scripts\Hand.cs" />
     <Compile Include="Assets\Scripts\IDefensiveCard.cs" />
     <Compile Include="Assets\Scripts\Deck.cs" />
