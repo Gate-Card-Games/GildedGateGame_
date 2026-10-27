@@ -29,6 +29,24 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.ugui@2.6.0": {
+      "name": "com.unity.ugui",
+      "displayName": "uGUI",
+      "resolvedPath": "C:\\Users\\ryanw\\GildedGateGame\\Library\\PackageCache\\com.unity.ugui@0f30cee369f3",
+      "fingerprint": "0f30cee369f34e16ab252fc2e04f95e0b74367e5",
+      "version": "2.6.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.ui.test-framework@6.6.0": {
+      "name": "com.unity.ui.test-framework",
+      "displayName": "UI Test Framework",
+      "resolvedPath": "C:\\Users\\ryanw\\GildedGateGame\\Library\\PackageCache\\com.unity.ui.test-framework@4c9182418ce9",
+      "fingerprint": "4c9182418ce96732e749f829edcd620b1bcdf1ac",
+      "version": "6.6.0",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
@@ -333,21 +351,21 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.test-framework@1.8.0": {
-      "name": "com.unity.test-framework",
-      "displayName": "Test Framework",
-      "resolvedPath": "C:\\Users\\ryanw\\GildedGateGame\\Library\\PackageCache\\com.unity.test-framework@7a3849e09bd0",
-      "fingerprint": "7a3849e09bd0f747cadfc719c0ea32fa9f539b2f",
-      "version": "1.8.0",
-      "source": "builtin",
-      "testable": false
-    },
     "com.unity.ext.nunit@2.1.0": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
       "resolvedPath": "C:\\Users\\ryanw\\GildedGateGame\\Library\\PackageCache\\com.unity.ext.nunit@0198eae3b53e",
       "fingerprint": "0198eae3b53e4b243332e89e4af7bd396715ad55",
       "version": "2.1.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.test-framework@1.8.0": {
+      "name": "com.unity.test-framework",
+      "displayName": "Test Framework",
+      "resolvedPath": "C:\\Users\\ryanw\\GildedGateGame\\Library\\PackageCache\\com.unity.test-framework@7a3849e09bd0",
+      "fingerprint": "7a3849e09bd0f747cadfc719c0ea32fa9f539b2f",
+      "version": "1.8.0",
       "source": "builtin",
       "testable": false
     }

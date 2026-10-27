@@ -11,6 +11,4 @@ public interface IDefensiveCard
     //Places the tower
     public void activate(int x, int y);
 
-    //fires a projectile at the target enemy
-    //public void attack(IEnemy targetedEnemy);
 }

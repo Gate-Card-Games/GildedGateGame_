@@ -25,6 +25,7 @@ public class Deck : MonoBehaviour
 
     private HashSet<int> drawnCards; //the cards that have been currently drawn
 
+    [SerializeField] SwordsmenCard debugCard;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -40,6 +41,8 @@ public class Deck : MonoBehaviour
     { 
         return maxDeckSize; 
     }
+
+
 
     //changes the max deck size to the new desired size
     public void changeMaxDeckSize(int newDeckSize)

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class GridPlacer : MonoBehaviour
@@ -9,6 +10,13 @@ public class GridPlacer : MonoBehaviour
     public LayerMask placementLayer;
 
     private HashSet<Vector3> occupiedPosition = new HashSet<Vector3>();
+
+
+    public void changePlacer(GameObject newObj)
+    {
+        boxTest = newObj;
+    }
+
     private void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

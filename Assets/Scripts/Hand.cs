@@ -23,6 +23,17 @@ public class Hand : MonoBehaviour
         hand = new ICardBase[handSize];
     }
 
+    //returns the size of the hand
+    public int getHandSize()
+    {
+        return handSize;
+    }
+
+    public ICardBase getItem(int slot)
+    {
+        return hand[slot];
+    }
+
     //When you play a card from you hand removes and replaces it
     public void playCard(int slot)
     {

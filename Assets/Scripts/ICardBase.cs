@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public interface ICardBase
 {
@@ -10,7 +11,7 @@ public interface ICardBase
     //Gets the name of the card
     public string getName();
 
-    public GameObject getCardDisplay(); // gets the prefab of the card object
+    public Button getCardDisplay(); // gets the prefab of the card object
 
     //Returns the rairty of the card (You can rename this to get level and change the description)
     public string getRarity();
